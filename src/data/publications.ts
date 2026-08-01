@@ -45,3 +45,7 @@ export const publications: Publication[] = [
     downloadUrl: "/documents/book-3.pdf",
   },
 ];
+
+export function getPublicationBySlug(slug: string): Publication | undefined {
+  return publications.find((p) => p.slug === slug);
+}
