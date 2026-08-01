@@ -53,7 +53,7 @@ export function Hero() {
           </div>
 
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="hidden lg:block flex-shrink-0">
             <div className="relative w-52 h-52 lg:w-64 lg:h-64 bg-white/10 backdrop-blur-sm rounded-full p-6 border border-white/20">
               <Image
                 src="/images/logo/pcrd-logo.png"
