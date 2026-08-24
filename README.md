@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PCRD
 
-## Getting Started
+PCRD is an organization website designed to present the organization's identity, work, activities, and information through a modern and responsive web experience.
 
-First, run the development server:
+Table of Contents
+About the Project
+Features
+Built With
+Getting Started
+Project Structure
+Deployment
+Contributing
+License
+About the Project
 
-```bash
+The PCRD website serves as the organization's online presence.
+
+The website was developed to provide visitors with a clear and accessible way to learn about PCRD, explore its work and activities, and access relevant information.
+
+The project focuses on providing a clean, responsive, and user-friendly interface that works across desktop and mobile devices.
+
+Live Website
+
+Visit the PCRD Website
+
+Features
+Responsive design for desktop, tablet, and mobile devices
+Organization information and content
+Modern user interface
+Responsive navigation
+Structured content sections
+Mobile friendly layouts
+Optimized static assets
+SEO and site verification support
+Built With
+
+This project was built using:
+
+Next.js – React framework for the web application
+React – UI library
+TypeScript – Type-safe development
+Tailwind CSS – Styling and responsive design
+PostCSS – CSS processing
+Vercel – Deployment and hosting
+Getting Started
+Prerequisites
+
+Before running the project, make sure you have:
+
+Node.js installed
+npm installed
+Git installed
+Installation
+
+Clone the repository:
+
+git clone https://github.com/ZainaAlahmar/PCRDS.git
+
+Navigate to the project directory:
+
+cd PCRD
+
+Install the dependencies:
+
+npm install
+Running the Development Server
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+To run the production build locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
+Project Structure
+PCRD/
+├── public/             
+├── src/
+│   ├── app/            
+│   ├── components/     
+│   ├── constants/       
+│   ├── data/            
+│   ├── types/           
+│   └── utils/          
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
+Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website is designed with responsiveness and accessibility in mind.
 
-## Deploy on Vercel
+The interface adapts to different screen sizes to provide a consistent experience across:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Desktop
+Laptop
+Tablet
+Mobile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Special attention was given to the mobile layout to ensure that the organization's content remains easy to navigate and read on smaller screens.
+
+Deployment
+
+The website is deployed using Vercel.
+
+Production deployments are generated from the Next.js application and hosted through Vercel.
+
+Live:
+PCRD
+
+License
+
+This project is maintained for the PCRD organization website.
